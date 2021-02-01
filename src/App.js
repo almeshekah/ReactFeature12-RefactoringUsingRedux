@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 // Components
 import ProductDetail from "./components/ProductDetail";
 import ProductList from "./components/ProductList";
+import FormAddItem from "./components/FormAddItem";
 import { ThemeProvider } from "styled-components";
 // Data
 import productsData from "./products";
@@ -55,6 +56,10 @@ function App() {
         <Route path="/products">
           <ProductList  />
         </Route>
+        <Route path="/AddProduct">
+          <FormAddItem  />
+        </Route>
+
       </Switch>
     </ThemeProvider>
   );
