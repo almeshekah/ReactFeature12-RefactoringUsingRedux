@@ -50,10 +50,10 @@ function App() {
           <Home />
         </Route>
         <Route path="/products/:productSlug">
-          <ProductDetail products={products} deleteProduct={deleteProduct} />
+          <ProductDetail  />
         </Route>
         <Route path="/products">
-          <ProductList products={products} deleteProduct={deleteProduct} />
+          <ProductList  />
         </Route>
       </Switch>
     </ThemeProvider>
